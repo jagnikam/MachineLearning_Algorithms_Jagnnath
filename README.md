@@ -63,5 +63,49 @@ pip install -r requirements.txt
 
 ---
 
-## 🧪 Output
+# 📊 Sample Outputs
 Each script prints the accuracy score of the trained model on the test dataset. Sample output:
+
+---
+
+## 🔹 1. Logistic Regression – Iris Dataset
+
+**Script**: `1_logistic_regression.py`
+Logistic Regression Accuracy: 1.0
+
+---
+
+## 🔹 2. Decision Tree – Titanic Dataset
+
+**Script**: `2_decision_tree.py`
+Decision Tree Accuracy: 0.7877094972067039
+
+---
+
+## 🔹 3. K-Nearest Neighbors – Digits Dataset
+
+**Script**: `3_knn.py`
+KNN Accuracy: 0.9888888888888889
+
+---
+
+## 🔹 4. Support Vector Machine – Breast Cancer Dataset
+
+**Script**: `4_svm.py`
+SVM Accuracy: 0.9649122807017544
+
+---
+
+## 🔹 5. Random Forest – Wine Dataset
+
+**Script**: `5_random_forest.py`
+Random Forest Accuracy: 1.0
+
+
+## 📌 Notes
+
+- Accuracy scores may slightly vary depending on environment and random state.
+- All results are from scikit-learn classifiers with default settings.
+- Outputs were printed using `print(accuracy_score(...))` after predictions.
+
+---
